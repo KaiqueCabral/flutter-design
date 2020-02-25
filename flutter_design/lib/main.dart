@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_design/home.dart';
 import 'package:flutter_design/pages/fonts.dart';
+import 'package:flutter_design/pages/orientation.dart';
 import 'package:flutter_design/pages/snackbar.dart';
 
 void main() => runApp(MyApp());
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         FontsPage.routeName: (BuildContext context) => FontsPage(),
         SnackBarPage.routeName: (BuildContext context) => SnackBarPage(),
+        OrientationPage.routeName: (BuildContext context) => OrientationPage(),
       },
     );
   }

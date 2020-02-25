@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_design/pages/fonts.dart';
+import 'package:flutter_design/pages/orientation.dart';
 import 'package:flutter_design/pages/snackbar.dart';
 
 Drawer getDrawer(BuildContext context) {
@@ -40,6 +41,12 @@ List<Widget> _drawerItems(BuildContext context) {
       Icons.font_download,
       Colors.grey[800],
       FontsPage.routeName,
+    ),
+    _item(
+      "Orientation",
+      Icons.screen_rotation,
+      Colors.teal[800],
+      OrientationPage.routeName,
     ),
     // _item(
     //   "Fonts",
