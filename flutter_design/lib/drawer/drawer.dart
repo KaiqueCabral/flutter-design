@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_design/pages/fonts.dart';
 import 'package:flutter_design/pages/orientation.dart';
 import 'package:flutter_design/pages/snackbar.dart';
+import 'package:flutter_design/pages/tabs.dart';
 
 Drawer getDrawer(BuildContext context) {
   return Drawer(
@@ -47,6 +48,12 @@ List<Widget> _drawerItems(BuildContext context) {
       Icons.screen_rotation,
       Colors.teal[800],
       OrientationPage.routeName,
+    ),
+    _item(
+      "Tabs",
+      Icons.tab,
+      Colors.indigo[800],
+      TabsPage.routeName,
     ),
     // _item(
     //   "Fonts",
