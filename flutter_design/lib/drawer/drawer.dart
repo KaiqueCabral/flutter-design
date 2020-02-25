@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_design/pages/fonts.dart';
 import 'package:flutter_design/pages/snackbar.dart';
 
 Drawer getDrawer(BuildContext context) {
@@ -33,6 +34,12 @@ List<Widget> _drawerItems(BuildContext context) {
       Icons.message,
       Colors.green[400],
       SnackBarPage.routeName,
+    ),
+    _item(
+      "Fonts",
+      Icons.font_download,
+      Colors.grey[800],
+      FontsPage.routeName,
     ),
     // _item(
     //   "Fonts",

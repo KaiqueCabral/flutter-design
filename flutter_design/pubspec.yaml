@@ -35,6 +35,16 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
 
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: lib/fonts/Raleway-Regular.ttf
+        - asset: lib/fonts/Raleway-Italic.ttf
+          style: italic
+    - family: TradeWinds
+      fonts:
+        - asset: lib/fonts/TradeWinds-Regular.ttf
+
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
