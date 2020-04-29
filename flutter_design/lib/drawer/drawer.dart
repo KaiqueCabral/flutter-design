@@ -32,12 +32,6 @@ List<Widget> _drawerItems(BuildContext context) {
   List<Widget> navItems = [
     _drawerHeader(),
     _item(
-      "Snackbar",
-      Icons.message,
-      Colors.green[400],
-      SnackBarPage.routeName,
-    ),
-    _item(
       "Fonts",
       Icons.font_download,
       Colors.grey[800],
@@ -50,17 +44,17 @@ List<Widget> _drawerItems(BuildContext context) {
       OrientationPage.routeName,
     ),
     _item(
+      "Snackbar",
+      Icons.message,
+      Colors.green[400],
+      SnackBarPage.routeName,
+    ),
+    _item(
       "Tabs",
       Icons.tab,
       Colors.indigo[800],
       TabsPage.routeName,
     ),
-    // _item(
-    //   "Fonts",
-    //   Icons.font_download,
-    //   Colors.grey[900],
-    //   SnackbarPage.routeName,
-    // ),
   ];
 
   return navItems;
